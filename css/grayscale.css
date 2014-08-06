@@ -156,15 +156,15 @@ background-position: center;
 .intro {
     display: table;
     width: 100%;
-    height: 50%;
-    padding: 220px 0px;
+    height: 40%;
+    padding: 260px 0px;
     text-align: center;
     color: #fff;
-    background: url(../img/australian_ram_extrasky_crop3.png) no-repeat bottom center scroll;
+    background: url(../img/australian_ram_extrasky_crop3.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
+    background-size:cover;
     -o-background-size: cover;
 }
 
