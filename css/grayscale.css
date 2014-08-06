@@ -142,10 +142,6 @@ background-position: center;
     .logo-image-mobile {
       display: none;
     }
-    .img-responsive{
-        display: inline}
-    .img-responsive-mobile{
-        display: none}
 
     .top-nav-collapse {
         padding: 0;
@@ -308,25 +304,13 @@ background-position: center;
 
 .img-responsive-overlay {
     position:absolute;
-    top:140px;
-    left:2.5%;
-    bottom:78%;
-    margin:auto;
-    max-width: 95%;
-    max-height: auto;
-    display:none;
-}
-
-.img-responsive-overlay-mobile {
-    position:absolute;
-    top:140px;
+    top:25%;
     left:2.5%;
     bottom:78%;
     margin:auto;
     max-width: 95%;
     max-height: auto;
 }
-
 
 
 .img-overlay {
