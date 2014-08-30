@@ -26,16 +26,17 @@ h6 {
 }
 
 p {
-    margin: 0 0 25px;
-    font-size: 18px;
-    line-height: 1.5;
+    margin: 0 0 20px;
+    font-size: 14px;
+    line-height: 1.25;
+font-family: 'Open Sans', sans-serif;    text-align:left;
 }
 
 @media(min-width:767px) {
     p {
-        margin: 0 0 35px;
-        font-size: 20px;
-        line-height: 1.6;
+        margin: 0 180px 20px;
+        font-size: 14px;
+        line-height: 1.25;
     }
 }
 
@@ -56,36 +57,10 @@ a:focus {
     font-weight: 400;
 }
 
-.logo-image {
- background-image: url("/img/Flattened%2520Files/mj_black_with_logo_bg.png");
-background-position: center;
-    background-size: cover;
-     height: 132px;
- width: 265.667px ;
-
- position: absolute;
- left: 8%;
- display: none;   
-}
-.logo-image-mobile {
- background-image: url("/img/Flattened%2520Files/mj_black_with_logo_bg.png");
- background-position:top;
- background-size:contain;
- height: 78px;
- width: 157px ;
- position: absolute;
-    left:50%;
- margin-left: -78px;
- margin-right: auto;
- top:0px;
- display:inherit;   
-}
-
 .navbar {
     margin-bottom: 0;
-    border-bottom: 0px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -128,7 +103,7 @@ background-position: center;
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 4px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
@@ -144,23 +119,23 @@ background-position: center;
     }
 
     .top-nav-collapse {
-        padding: 0;
-        background-color: #000;
+        padding: 10;
+        background-color: #fff;
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
+        border-bottom: 0px solid rgba(255,255,255,.3);
     }
 }
 
-.intro {
+.mj {
     display: table;
     width: 100%;
-    height: 100%;
-    padding: 300px 0px;
+    height: 20%;
+    padding: 100px 0px;
     text-align: center;
     color: #fff;
-    background: url(../img/australian_ram_extrasky_crop3.jpg) no-repeat bottom center scroll;
+    background: url(../img/FlattenedFiles/mj_black_with_logo_bg.png) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -168,9 +143,111 @@ background-position: center;
     -o-background-size: cover;
 }
 
-.branding-heading{
-    background-image:url(../img/MJWool_Web_Banner.png);
+.text_gold {
+    display: table;
+    width: 100%;
+    height: 20%;
+    padding: 20px 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #8C6E49;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size:cover;
+    -o-background-size: cover;
 }
+
+.text_white {
+    display: table;
+    width: 100%;
+    height: 20%;
+    padding: 20px 20px;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size:cover;
+    -o-background-size: cover;
+}
+
+.wool {
+    display: table;
+    width: 100%;
+    height: 20%;
+    padding: 100px 0px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/FlattenedFiles/woolmills_grey_with_logo_bg.png) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size:cover;
+    -o-background-size: cover;
+}
+
+.thermo {
+    display: table;
+    width: 100%;
+    height: 20%;
+    padding: 100px 0px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/FlattenedFiles/thermofleece_blue_with_logo_bg.png) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size:cover;
+    -o-background-size: cover;
+}
+
+.skins {
+    display: table;
+    width: 100%;
+    height: 20%;
+    padding: 100px 0px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/FlattenedFiles/merinoskins_red_with_logo_bg.png) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size:cover;
+    -o-background-size: cover;
+}
+
+.ktena {
+    display: table;
+    width: 100%;
+    height: 20%;
+    padding: 100px 0px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/FlattenedFiles/ktena_gold_with_logo_bg.png) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size:cover;
+    -o-background-size: cover;
+}
+
+.contact_us {
+    display: table;
+    width: 100%;
+    height: 20%;
+    padding: 100px 0px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/Backgrounds/mj_black_bg.png) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size:cover;
+    -o-background-size: cover;
+}
+
 
 .intro-body {
     display: table-cell;
@@ -186,7 +263,40 @@ background-position: center;
 }
 
 @media(min-width:767px) {
-    .intro {
+    .mj {
+        height: 60%;
+        padding: 0;
+    }
+    
+    .text_gold {
+        height: 38%;
+        padding: 0;
+    }
+      .text_white {
+        height: 38%;
+        padding: 0;
+    }
+    
+    .wool {
+        height: 60%;
+        padding: 0;
+    }
+    
+    .thermo {
+        height: 60%;
+        padding: 0;
+    }
+    
+    .ktena {
+        height: 60%;
+        padding: 0;
+    }
+    .skins {
+        height: 60%;
+        padding: 0;
+    }
+    
+        .contact_us {
         height: 100%;
         padding: 0;
     }
@@ -361,17 +471,16 @@ background-position: center;
 }
 
 .btn-default {
-    border: 1px solid #28c3ab;
-    color: #28c3ab;
+    border: 1px solid #836E4C;
+    color: #836E4C;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #28c3ab;
     outline: 0;
     color: #000;
-    background-color: #28c3ab;
+    background-color: #836E4C;
 }
 
 .btn-huge {
