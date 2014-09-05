@@ -3660,7 +3660,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-header {
-    float: left;
+    float: center;
   }
 }
 .navbar-collapse {
@@ -3681,12 +3681,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-top: 0;
     box-shadow: none;
   }
-  .navbar-collapse.collapse {
-    display: block !important;
-    height: auto !important;
-    padding-bottom: 0;
-    overflow: visible !important;
-  }
+.navbar-collapse.collapse {
+        text-align: center; /* Set this */
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important;
+        font-weight:bold;
+}
   .navbar-collapse.in {
     overflow-y: visible;
   }
@@ -3791,8 +3792,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav {
-  margin: 7.5px -15px;
+    display:inline-block;
+    float: none;
+    margin: 0;
 }
+
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -3821,12 +3825,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 @media (min-width: 768px) {
-  .navbar-nav {
-    float: left;
+.navbar-nav {
+    display:inline-block;
+    float: none;
     margin: 0;
-  }
+}
   .navbar-nav > li {
-    float: left;
+        display: table-cell;
+        float: none;
+        text-align: center;
   }
   .navbar-nav > li > a {
     padding-top: 15px;
@@ -3838,7 +3845,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-left {
-    float: left !important;
+    float: none !important;
+       text-align: center;
   }
   .navbar-right {
     float: right !important;
