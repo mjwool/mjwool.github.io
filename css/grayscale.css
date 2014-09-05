@@ -20,7 +20,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans', sans-serif ,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -41,7 +41,7 @@ font-family: 'Open Sans', sans-serif;    text-align:left;
 }
 
 a {
-    color: #28c3ab;
+    color: #000;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -50,7 +50,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #176e61;
+    color: #fff;
 }
 
 .light {
