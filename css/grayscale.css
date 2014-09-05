@@ -156,6 +156,22 @@ a:focus {
     -o-background-size: cover;
 }
 
+
+.text_gold_mini {
+    display: table;
+    width: 100%;
+    height: 10%;
+    padding: 20px 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #8C6E49;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size:cover;
+    -o-background-size: cover;
+}
+
 .text_white {
     display: table;
     width: 100%;
@@ -269,6 +285,11 @@ a:focus {
     .text_gold {
         height: 38%;
         padding: 0;
+    }
+    
+     .text_gold_mini {
+         visibility: hidden;
+         height: 0%;
     }
       .text_white {
         height: 38%;
