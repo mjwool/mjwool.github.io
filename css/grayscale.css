@@ -35,7 +35,7 @@ font-family: 'Open Sans', sans-serif; font-weight: 300;    text-align:center;
 @media(min-width:767px) {
     p {
         margin: 0 90px 20px;
-        font-size: 24px;
+        font-size: 20px;
         line-height: 1.25;
     }
 }
@@ -470,6 +470,22 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
+.voffset  { margin-top: 2px; }
+.voffset1 { margin-top: 5px; }
+.voffset2 { margin-top: 10px; }
+.voffset3 { margin-top: 15px; }
+.voffset4 { margin-top: 30px; }
+.voffset5 { margin-top: 40px; }
+.voffset6 { margin-top: 60px; }
+.voffset7 { margin-top: 300px; }
+.voffset8 { margin-top: 500px; }
+.voffset9 { margin-top: 700px; }
+
+.box {
+ position:relative;
+ top:30%;
+}
+
 <style>
     .google-maps {
         position: relative;
@@ -485,3 +501,4 @@ body {
         height: 100% !important;
     }
 </style>
+
