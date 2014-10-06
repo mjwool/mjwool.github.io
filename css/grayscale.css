@@ -50,18 +50,51 @@ a {
 a:hover,
 a:focus {
     text-decoration: underscore;
-    color: #fff;
+    color: #8C6E49;
 }
 
-.linkone:hover{
+.tflink
+{
+    color: #fff;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.tflink:hover{
+    text-decoration: none;
+    color: #345CB5;
+}
+
+.tflink:focus{
+    text-decoration:none;
+    color: #345CB5;
+}
+
+.mslink:hover{
+    text-decoration: none;
+    color: #BF302E;
+}
+
+.mslink:focus{
+    text-decoration:none;
+    color: #BF302E;
+}
+
+
+.klink:hover{
     text-decoration: none;
     color: #8C6E49;
 }
 
-.linkone:focus{
-    text-decoration:underline;
+.klink:focus{
+    text-decoration:none;
     color: #8C6E49;
 }
+
+
+
+
 
 .light {
     font-weight: 400;
@@ -161,6 +194,7 @@ a:focus {
     height: 20%;
     padding: 100px 0px;
     text-align: center;
+    vertical-align: text-bottom;
     color: #fff;
     background: url(../img/FlattenedFiles/mj_black_with_logo_bg.png) no-repeat bottom center scroll;
     background-color: #000;
@@ -282,6 +316,12 @@ a:focus {
     vertical-align:bottom;   
 }
 
+.intro-dots-body {
+    display:table-cell;
+    vertical-align:bottom;  
+    visibility:hidden;
+}
+
 .map-body {
     display:table-cell;
     vertical-align:middle;   
@@ -346,6 +386,10 @@ a:focus {
     .intro-text {
         font-size: 25px;
     }
+    .intro-dots-body { 
+    visibility:visible;
+}
+    
 }
 
 
