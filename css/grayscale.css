@@ -53,8 +53,9 @@ a:focus {
     color: #8C6E49;
 }
 
-.tflink
-{
+.tflink,
+.mslink,
+.klink {
     color: #fff;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
